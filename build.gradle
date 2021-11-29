@@ -27,7 +27,9 @@ repositories {
 }
 
 dependencies {
-
+    compile("org.springframework.security:spring-security-test")
+    compile('org.springframework.session:spring-session-jdbc')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.boot:spring-boot-starter-mustache:')
 
     //스프링 부트용 Spring Data Jpa 추상화 라이브러리

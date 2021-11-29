@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 //@SpringBootApplication 은 항상 최상단에 위치할 것
 @SpringBootApplication
-@EnableJpaAuditing //JPA Auditing 활성화
+//@EnableJpaAuditing //JPA Auditing 활성화
 public class Application {
     public static void main(String[] args){
         SpringApplication.run(Application.class, args);
