@@ -1,9 +1,7 @@
 package com.jik.book.springboot.web;
 
 import org.junit.Test;
-import org.mockito.Mock;
 import org.springframework.mock.env.MockEnvironment;
-import sun.java2d.cmm.Profile;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
