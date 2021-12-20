@@ -2,6 +2,7 @@ package com.jik.book.springboot.web;
 
 import org.junit.Test;
 import org.springframework.mock.env.MockEnvironment;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProfileControllerUnitTest {
@@ -47,7 +48,6 @@ public class ProfileControllerUnitTest {
         //given
         String expectedProfile = "default";
         MockEnvironment env = new MockEnvironment();
-
         ProfileController controller = new ProfileController(env);
 
         //when
